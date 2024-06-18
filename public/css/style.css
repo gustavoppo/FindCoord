@@ -119,6 +119,16 @@ body {
   text-transform: uppercase;
 }
 
+.info-flex {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.info {
+  font-size: 1.25rem;
+  color: #333;
+}
+
 @media (max-width: 1024px) {
   .header {
     font-size: 4.12rem;

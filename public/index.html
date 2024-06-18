@@ -21,17 +21,18 @@
         <h1 class="header">Find Coordinates</h1>
 
         <form class="form">
-          <p class="form-title">Entre com as cordenadas</p>
+          <p class="form-title">Entre com o CEP</p>
           <div class="input">
             <div class="input-container">
-              <input placeholder="Latitute" type="number" id="latitude" />
-            </div>
-            <div class="input-container">
-              <input placeholder="Longitude" type="number" id="longitude" />
+              <input placeholder="local" type="text" id="local" />
             </div>
           </div>
           <button id="search-btn" class="submit" type="submit">Buscar</button>
         </form>
+        <div class="info-flex">
+          <p id="lat" class="info"></p>
+          <p id="lng" class="info"></p>
+        </div>
       </div>
 
       <div id="map"></div>
